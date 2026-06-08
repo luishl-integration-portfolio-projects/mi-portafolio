@@ -1,19 +1,18 @@
-# Luis Hernandez | Systems Integration Portfolio
+# Luis Hernandez | Integration Engineer — AWS Cloud Transition
 
-A premium, minimalist portfolio website showcasing expertise in enterprise systems integration, API gateways, database pipelines, and fault-tolerant data synchronizations.
+Portfolio website showcasing enterprise integration expertise (MuleSoft, TIBCO) and active transition into AWS cloud-native and serverless architectures.
 
-## 🛠️ Tech Stack & Architecture
-- **Structure**: Semantic HTML5 tags.
-- **Styling**: Vanilla CSS3 custom property themes (Cyber Dark / Crisp Light modes), flexbox/grid alignments, keyframe animations.
-- **Interactions**: Vanilla JavaScript for active navigation highlight, terminal mock bash inputs, theme preference storage, and transition filters.
+## 🛠️ Tech Stack
+- **Structure**: Semantic HTML5.
+- **Styling**: Vanilla CSS3 with custom property themes (dark/light modes), flexbox/grid, keyframe animations.
+- **Interactions**: Vanilla JavaScript for navigation, theme toggle, typing effect, and project filters.
 
 ## 🌟 Key Features
-- **Visual Integration Diagrams**: Custom embedded animated SVGs representing system message flows.
-- **Interactive Terminal**: An integrated command-line interface supporting commands like `help`, `about`, `skills`, `projects`, `ping`, and `clear`.
-- **Dynamic Filters**: Seamless, race-condition-free transition filtering on capabilities and integration projects.
-- **Visual Mode Toggle**: Automatic system theme detection and persistent visual mode toggle.
+- **Cloud Architecture Diagram**: Visual flow diagram of serverless event-driven architecture (API Gateway → Lambda → SQS → Lambda → DynamoDB).
+- **Enterprise Integration Experience**: MuleSoft & TIBCO project portfolio with dynamic filtering.
+- **Professional Certifications**: MuleSoft Certified Developer.
+- **Visual Mode Toggle**: Automatic system theme detection and persistent toggle.
 
 ## 🚀 Local Execution
-To view this portfolio locally:
 1. Clone the repository.
-2. Open `index.html` directly in any modern web browser or run it using a local development server of your choice.
+2. Open `index.html` in any modern browser or use a local development server.

@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luis Hernandez - Integration Architect Portfolio</title>
+  <title>Luis Hernandez - Integration Engineer | AWS Cloud Transition</title>
   <meta name="description"
-    content="Portfolio of Luis Hernandez, a Systems Integration Engineer specializing in connecting systems, designing enterprise APIs, and architecting resilient event-driven pipelines.">
+    content="Integration Engineer with 5+ years in MuleSoft and TIBCO, transitioning into AWS cloud-native and serverless architectures. Portfolio showcasing enterprise integration, APIs, and event-driven systems on AWS.">
 
   <!-- CSS Link -->
   <link rel="stylesheet" href="style.css">
@@ -20,7 +20,7 @@
   <header>
     <div class="container nav-container">
       <a href="#home" class="logo" id="logo-link">
-        Luis Hernandez<span class="logo-suffix"> - Integration Architect Portfolio</span>
+        Luis Hernandez<span class="logo-suffix"> - Integration Engineer | MuleSoft & TIBCO → AWS Cloud</span>
       </a>
 
       <!-- Navigation Links -->
@@ -70,8 +70,7 @@
           </div>
 
           <h1 class="hero-title">
-            Connecting Systems.<br>
-            Routing <span class="text-gradient">Data Flows.</span>
+            Building resilient integration systems across enterprise <span class="text-gradient">and cloud environments.</span>
           </h1>
 
           <div class="typing-container mono">
@@ -81,11 +80,7 @@
           </div>
 
           <p class="hero-subtitle">
-            I am an integration engineer with over 5 years of experience in enterprise system integration using MuleSoft and TIBCO, specializing in messaging systems, ESB architectures, and synchronous/asynchronous API patterns across regulated industries such as banking and telecommunications.</p>
-
-<p class="hero-subtitle">I am currently expanding my expertise into cloud-native integration on AWS, applying my background in distributed systems to serverless and event-driven architectures.</p>
-
-<p class="hero-subtitle">As part of this transition, I design and implement decoupled cloud solutions using AWS services such as API Gateway, Lambda, SQS, and DynamoDB, with Infrastructure as Code using Terraform and local validation through LocalStack to ensure reproducible and testable deployments.
+            Integration engineer with 5+ years of experience in enterprise integration (MuleSoft & TIBCO), specializing in APIs, messaging systems, and distributed architectures. Currently transitioning into AWS cloud-native development with focus on serverless and event-driven systems.
           </p>
 
           <div class="hero-actions">
@@ -99,7 +94,6 @@
             <a href="#contact" class="sec-btn">Initialize Connection</a>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -143,6 +137,26 @@
 
           <!-- Skills Cards Categories -->
           <div class="skills-container">
+            <!-- Skill Category: Cloud & Serverless (primera posición) -->
+            <div class="skill-category">
+              <div class="skill-header">
+                <!-- Cloud Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
+                </svg>
+                <span>Cloud & Serverless</span>
+              </div>
+              <div class="skill-list">
+                <span class="skill-tag">AWS Lambda</span>
+                <span class="skill-tag">API Gateway</span>
+                <span class="skill-tag">Amazon SQS</span>
+                <span class="skill-tag">DynamoDB</span>
+                <span class="skill-tag">Terraform</span>
+                <span class="skill-tag">LocalStack</span>
+                <span class="skill-tag">Event-Driven Architecture</span>
+              </div>
+            </div>
+
             <!-- Skill Category: Middleware -->
             <div class="skill-category">
               <div class="skill-header">
@@ -292,6 +306,63 @@
     </section>
 
     <!-- ==========================================================================
+         CLOUD ARCHITECTURE PROJECT SECTION
+         ========================================================================== -->
+    <section id="cloud-project">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Cloud Architecture Project</h2>
+        </div>
+
+        <div class="cloud-project-content">
+          <div class="cloud-project-text">
+            <p>
+              Serverless event-driven architecture built on <strong>AWS</strong> using <strong>API Gateway</strong>, <strong>Lambda</strong>, <strong>SQS</strong>, and <strong>DynamoDB</strong>. Infrastructure defined with <strong>Terraform</strong> and tested locally using <strong>LocalStack</strong>.
+            </p>
+            <p>
+              The system implements asynchronous processing, decoupled services, and fault-tolerant messaging patterns — applying enterprise integration patterns to cloud-native architectures.
+            </p>
+          </div>
+
+          <div class="cloud-arch-diagram">
+            <div class="arch-flow">
+              <span class="arch-node arch-node-api">API Gateway</span>
+              <svg class="arch-arrow" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+              <span class="arch-node arch-node-lambda">Lambda</span>
+              <svg class="arch-arrow" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+              <span class="arch-node arch-node-sqs">SQS</span>
+              <svg class="arch-arrow" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+              <span class="arch-node arch-node-lambda">Lambda</span>
+              <svg class="arch-arrow" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+              <span class="arch-node arch-node-db">DynamoDB</span>
+            </div>
+          </div>
+
+          <a href="https://github.com/luishl-integration-portfolio-projects/aws-serverless-integration-pipeline"
+             target="_blank" rel="noopener noreferrer" class="glow-btn" style="align-self: center;">
+            <span>View Repository</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
          PROJECTS / DATA PIPELINES SECTION
          ========================================================================== -->
     <section id="projects">
@@ -329,6 +400,7 @@
                 <span class="project-tech-tag">Oracle SQL / PL-SQL</span>
                 <span class="project-tech-tag">GitHub Actions</span>
                 <span class="project-tech-tag">Postman</span>
+                <span class="project-tech-tag">AWS (learning / transition)</span>
               </div>
             </div>
           </div>
