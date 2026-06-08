@@ -1,7 +1,7 @@
 /**
  * script.js - Interactive Logic for Luis Hernandez's Integration Portfolio
- * Implements Typing effects, Interactive Terminal, Handshake POST simulation,
- * Theme switching, Mobile Navigation, and Project Filters.
+ * Implements Typing effects, Theme switching, Mobile Navigation,
+ * Project Filters, and Scroll-based navigation highlighting.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
       
       htmlElement.setAttribute('data-theme', newTheme);
       localStorage.setItem('theme', newTheme);
-      
-
     });
   }
 
@@ -111,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* ==========================================================================
-     5. PROJECT FILTERS DRAWER
+     4. PROJECT FILTERS
      ========================================================================== */
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
@@ -153,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* ==========================================================================
-     7. SCROLL NAVIGATION HIGH LIGHTER & SCROLL TOP
+     5. SCROLL NAVIGATION HIGHLIGHTER & SCROLL TOP
      ========================================================================== */
   const sections = document.querySelectorAll('section[id]');
   const scrollBtn = document.getElementById('scroll-to-top');
