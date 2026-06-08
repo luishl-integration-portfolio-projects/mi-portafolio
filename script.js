@@ -31,8 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       htmlElement.setAttribute('data-theme', newTheme);
       localStorage.setItem('theme', newTheme);
       
-      // Log theme toggle in terminal if available
-      appendTerminalOutput(`SYSTEM: Visual theme mutated to [${newTheme.toUpperCase()}] mode.`);
+
     });
   }
 
