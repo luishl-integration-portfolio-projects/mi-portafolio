@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'MuleSoft Certified Developer',
     'Integration Technical Consultant',
     'TIBCO Developer',
-    'Data Integration Engineer'
+    'Data Integration Engineer',
+    'AWS Cloud Integration'
   ];
   
   let titleIndex = 0;

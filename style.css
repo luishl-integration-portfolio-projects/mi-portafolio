@@ -844,6 +844,20 @@ section:nth-of-type(even) {
   text-align: center;
 }
 
+.project-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
 .cloud-project-text p {
   color: var(--text-secondary);
   font-size: 1.05rem;
