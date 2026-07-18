@@ -829,6 +829,35 @@ section:nth-of-type(even) {
   color: var(--text-secondary);
 }
 
+.project-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.project-detail-item {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  border-left: 2px solid var(--border-color);
+  transition: border-color var(--transition-fast);
+}
+
+.project-card:hover .project-detail-item {
+  border-left-color: var(--accent-cyan);
+}
+
+.project-detail-title {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.project-detail-text {
+  color: var(--text-secondary);
+}
+
 /* ==========================================================================
    CLOUD ARCHITECTURE PROJECT SECTION
    ========================================================================== */
